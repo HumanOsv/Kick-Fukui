@@ -8,8 +8,8 @@
 	      |_|     |_|  |_| |_|        |_|
 	# # # # # # # # # # # # # # # # # # # # # # # # # #
 	# Topological Analysis of Fukui Functions (TAFF)  #
-	# DATE: 2017-09-28.13:27:33				          #
-	# TiznadoLab									  #
+	# DATE: 2017-09-28.13:27:33		          #
+	# TiznadoLab				          #
 	# # # # # # # # # # # # # # # # # # # # # # # # # #
 
 
