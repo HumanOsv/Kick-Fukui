@@ -1,1 +1,1 @@
-# FuKick
+# Kick-Fukui Algorithm
