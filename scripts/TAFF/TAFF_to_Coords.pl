@@ -25,7 +25,7 @@ sub Read_Integral_File {
 
 my ($file,$energy) = @ARGV;
 if (not defined $file) {
-	die "\nIntegral Values of TAFF software:\n\nUsage:\n\tperl IntegralFile_to_Coords.pl [OutputFileTAFF.txt]\n\n\n";
+	die "\nIntegral Values of TAFF software:\n\nUsage:\n\tperl TAFF_to_Coords.pl [OutputFileTAFF.txt]\n\n\n";
 	exit(1);  
 }
 #read and parse
