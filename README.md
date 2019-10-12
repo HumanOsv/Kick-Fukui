@@ -9,7 +9,7 @@ A novel program for the search of global minimum structures of atomic clusters a
 
 **1)	Step Zero**
 
-Before starting the installation, it is important to know that SnippetKick is not a full or autonomous software; instead, it needs an assisting program to calculate energies and perform optimizations like Open Babel, Lammps, Gaussian and Mopac. SnippetKick uses these pre-installed tools for the minima local search on the potential energy surface (PES).
+Before starting the installation, it is important to know that Kick-Fukui is not a full or autonomous software; instead, it needs an assisting program to calculate energies and perform optimizations like Open Babel, Lammps, Gaussian and Mopac. SnippetKick uses these pre-installed tools for the minima local search on the potential energy surface (PES).
 
 **1. Installing external softwares.**
 
@@ -21,15 +21,14 @@ Before starting the installation, it is important to know that SnippetKick is no
 
   •	Lammps (https://lammps.sandia.gov/download.html#ubuntu) (Optional)
   
-  NOTE: mpiexec for Lammps (https://www.mpich.org/static/docs/v3.1/www1/mpiexec.html)
 
 **2. Installing Perl environment.**
 
-Once the programs for both energy calculations and geometry optimizations are working correctly, the Perl environment needs to be installed as well. Perl is a highly capable, feature-rich programming language that runs on many platforms from portable to mainframes.
+Once the programs for  both energy calculations and geometry optimizations are working correctly, the Perl environment needs to be installed as well. Perl is a highly capable, feature-rich programming language that runs on many platforms from portable to mainframes.
 It can be installed from:
 - https://www.perl.org/get.html
 
-There are some additional libraries and softwares that must also be installed to allow SnippetKick to work:
+There are some additional libraries and softwares that must also be installed to allow Kick-Fukui to work:
 
 -Install CPAN modules (http://www.cpan.org/modules/INSTALL.html or https://egoleo.wordpress.com/2008/05/19/how-to-install-perl-modules-through-cpan-on-ubuntu-hardy-server/)
 
@@ -37,48 +36,46 @@ There are some additional libraries and softwares that must also be installed to
       
     user$ cpan Math::Matrix
 
-**2)	Downloading and Installing SnippetKick**
+**2)	Downloading and Installing Kick-Fukui**
 
-SnippetKick can be directly downloaded as a zip file from the page:
+Kick-Fukui can be directly downloaded as a zip file from the page:
 
--https://github.com/HumanOsv/SnippetKick
+-https://github.com/HumanOsv/Kick-Fukui
 
 Alternatively, it can be downloaded using the Git tools using the following command:
 
-    user$ git clone https://github.com/HumanOsv/SnippetKick.git
+    user$ git clone https://github.com/HumanOsv/Kick-Fukui.git
 
-    user$ cd ./SnippetKick
+    user$ cd ./Kick-Fukui
 
 **Note: before downloading using Git tools, make sure to be in your final installation path.**
 
-We recommend to install using Git tools to update future SnippetKick software easily. To update the program, use the following command:
+We recommend to install using Git tools to update future Kick-Fukui software easily. To update the program, use the following command:
 
 	user$ git pull master
 	
-Alternatively, SnippetKick could be installed as follows: choose a final installation path, and then extract the ZIP file (containing the software). Provide all the basic permissions for use and, optionally, set SnippetKick.pl file as a system call.
+Alternatively, Kick-Fukui could be installed as follows: choose a final installation path, and then extract the ZIP file (containing the software). Provide all the basic permissions for use and, optionally, set SnippetKick.pl file as a system call.
 
-**3)	Running SnippetKick**
+**3)	Running Kick-Fukui**
 
-To run SnippetKick the following files are necessary in the working directory:
+To run Kick-Fukui the following files are necessary in the working directory:
 
-    • Config.in                 : The SnippetKick input file, see below for more information.
+    • Config.in                 : The Kick-Fukui input file, see below for more information.
     
     • DupGrigoryanSpringborg.pl : The executable file for duplicate molecular fragments.
 
-    • SnippetKick.pl            : The executable file for structure prediction.
+    • Kick-Fukui_Algorithm.pl   : The executable file for structure prediction.
 
-    • ReaxFF file (optional)    : Reactive MD-force field file of Lammps.
-
-**Note: SnippetKick.pl can be called from another path if correctly set**
+**Note: Kick-Fukui.pl can be called from another path if correctly set**
 
 Now, use the following commands to execute this program:
 
-    user$  perl SnippetKick.pl Config.in > out.log
+    user$  perl Kick-Fukui.pl Config.in > out.log
 
-Alternatively, the user can set SnippetKick to run in the background using one of the following methods:
+Alternatively, the user can set Kick-Fukui to run in the background using one of the following methods:
 
-	user$ nohup perl SnippetKick.pl Config.in > out.log
-	user$ setsid perl SnippetKick.pl Config.in > out.log
+	user$ nohup perl Kick-Fukui.pl Config.in > out.log
+	user$ setsid perl Kick-Fukui.pl Config.in > out.log
 
 **4)	Input File**
 
