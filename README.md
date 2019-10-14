@@ -9,7 +9,7 @@ A novel program for the search of global minimum structures of atomic clusters a
 
 **1)	Step Zero**
 
-Before starting the installation, it is important to know that Kick-Fukui is not a full or autonomous software; instead, it needs an assisting program to calculate energies and perform optimizations like Open Babel, Lammps, Gaussian and Mopac. SnippetKick uses these pre-installed tools for the minima local search on the potential energy surface (PES).
+Before starting the installation, it is important to know that Kick-Fukui uses as input file *(.frag)* the information of *Condensed values of the Fukui functions called attractors*, it needs an assisting program to calculate *Topological Analysis of the Fukui Function* like TAFF, Multiwfn, Dgrid, TopChem2, AIMALL, TopMod, AIM-UC, AIM2000, etc.
 
 File format with extension **.frag**
 
@@ -44,7 +44,9 @@ File format with extension **.frag**
 
   •	AIM-UC (https://facyt-quimicomp.neocities.org/aim_uc/manual/manual_en.html)
 
-
+  •	AIM2000 (http://www.aim2000.de)
+   
+   
 **2. Installing Perl environment.**
 
 Once the programs for calculating Attractors using the Topological Analysis of the Fukui Function is functioning properly, the Perl environment needs to be installed as well. Perl is a highly capable, feature-rich programming language that runs on many platforms from portable to mainframes.
