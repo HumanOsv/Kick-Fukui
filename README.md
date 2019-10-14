@@ -54,7 +54,7 @@ We recommend to install using Git tools to update future Kick-Fukui software eas
 
 	user$ git pull master
 	
-Alternatively, Kick-Fukui could be installed as follows: choose a final installation path, and then extract the ZIP file (containing the software). Provide all the basic permissions for use and, optionally, set SnippetKick.pl file as a system call.
+Alternatively, Kick-Fukui could be installed as follows: choose a final installation path, and then extract the ZIP file (containing the software). Provide all the basic permissions for use and, optionally, set Kick-Fukui_Algorithm.pl file as a system call.
 
 **3)	Running Kick-Fukui**
 
