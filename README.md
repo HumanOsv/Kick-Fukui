@@ -24,7 +24,7 @@ Before starting the installation, it is important to know that Kick-Fukui is not
 
 **2. Installing Perl environment.**
 
-Once the programs for calculating attractors using the topology of the Fukui function are functioning properly, the Perl environment needs to be installed as well. Perl is a highly capable, feature-rich programming language that runs on many platforms from portable to mainframes.
+Once the programs for calculating Attractors using the Topological Analysis of the Fukui Function is functioning properly, the Perl environment needs to be installed as well. Perl is a highly capable, feature-rich programming language that runs on many platforms from portable to mainframes.
 It can be installed from:
 - https://www.perl.org/get.html
 
