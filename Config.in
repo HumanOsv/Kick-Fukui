@@ -1,0 +1,29 @@
+#                                                         #
+########### The Basic Parameters of Kick-Fukui ############
+#                                                         #
+
+# The Initial Population size (1000N, N = Atoms number)
+initial_species = 5000
+
+# Number of final geometries
+final_species = 10
+
+## Name of molecular species in the simulation
+# File with the nucleophilic Fukui function
+Mol_1 = f+koop-Si3.frag
+# File with the electrophilic Fukui function 
+Mol_2 = f-koop-Si9.frag
+
+# Box size the sum of the sides from both molecules multiply for a factor (Default 1)
+# The factor size or size of the box (in Angstroms) length, width, and height.
+box_size_factor = 0.8
+
+# Order Coulombic-Interaction Value (J) in a descending (YES) or scholastic (NO) manner 
+energy_order = YES
+
+# Search for duplicate molecular species (YES/NO)
+duplicate_species = NO
+
+# Output xyz file name 
+output_file_name = Si12
+
