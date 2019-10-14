@@ -83,12 +83,16 @@ Alternatively, Kick-Fukui could be installed as follows: choose a final installa
 
 To run Kick-Fukui the following files are necessary in the working directory:
 
+    • f+_inputfile.frag         : File with the nucleophilic Fukui function.
+    
+    • f-_inputfile.frag         : File with the electrophilic Fukui function.
+    
     • Config.in                 : The Kick-Fukui input file, see below for more information.
     
     • DupGrigoryanSpringborg.pl : The executable file for duplicate molecular fragments.
 
     • Kick-Fukui_Algorithm.pl   : The executable file for structure prediction.
-
+    
 **Note: Kick-Fukui_Algorithm.pl can be called from another path if correctly set**
 
 Now, use the following commands to execute this program:
