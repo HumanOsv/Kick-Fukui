@@ -11,7 +11,7 @@
        using as a Coulomb interaction between Fukui functions-based method 
 
 MESSAGE Choose Sort by Descending Order  
-MESSAGE Don't Select Duplicates 
+MESSAGE Grigoryan-Springborg's Algorithm 
 MESSAGE Reading File f+koop-Si3.frag
 MESSAGE Reading File f-koop-Si9.frag
 
