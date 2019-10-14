@@ -32,9 +32,9 @@ There are some additional libraries and softwares that must also be installed to
 
 -Install CPAN modules (http://www.cpan.org/modules/INSTALL.html or https://egoleo.wordpress.com/2008/05/19/how-to-install-perl-modules-through-cpan-on-ubuntu-hardy-server/)
 
-    user$ cpan Parallel::ForkManager
+    user$ sudo cpan Parallel::ForkManager
       
-    user$ cpan Math::Matrix
+    user$ sudo cpan Math::Matrix
 
 **2)	Downloading and Installing Kick-Fukui**
 
