@@ -65,12 +65,14 @@ To run Kick-Fukui the following files are necessary in the working directory:
     • DupGrigoryanSpringborg.pl : The executable file for duplicate molecular fragments.
 
     • Kick-Fukui_Algorithm.pl   : The executable file for structure prediction.
- 
+
+**Note: Kick-Fukui_Algorithm.pl can be called from another path if correctly set**
+
  File format with extension **.frag**
 
  *First column         = Atom symbol for attractor (X) and element (example Si)*
 
- *Second-fourth column = Cartesian coordinates (Å) x-coord; y-coord; z-coord *
+ *Second-fourth column = Cartesian coordinates (Å) x-coord; y-coord; z-coord*
   
  *Fifth column         = Condensed values of the Fukui functions (attractors)*
 
@@ -82,9 +84,6 @@ To run Kick-Fukui the following files are necessary in the working directory:
       Si	0.00000000	 1.57169558	-0.53352285
       Si	0.00000000	 0.00000000	 1.06704517
       Si	0.00000000	-1.57169558	-0.53352285
-
-
-**Note: Kick-Fukui_Algorithm.pl can be called from another path if correctly set**
 
 Now, use the following commands to execute this program:
 
