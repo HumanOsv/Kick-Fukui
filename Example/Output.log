@@ -1,0 +1,38 @@
+
+      ____  __.__        __            ___________     __         .__        
+     |    |/ _|__| ____ |  | __        \_   _____/_ __|  | ____ __|__|      
+     |      < |  |/ ___\|  |/ /  ______ |    __)|  |  \  |/ /  |  \  |    
+     |    |  \|  \  \___|    <  /_____/ |     \ |  |  /    <|  |  /  |   
+     |____|__ \__|\___  >__|_ \         \___  / |____/|__|_ \____/|__|  
+             \/       \/     \/             \/             \/         	
+
+
+ Search global minimum structures of atomic clusters and molecules in the gas phase,
+       using as a Coulomb interaction between Fukui functions-based method 
+
+MESSAGE Choose Sort by Descending Order  
+MESSAGE Don't Select Duplicates 
+MESSAGE Reading File f+koop-Si3.frag
+MESSAGE Reading File f-koop-Si9.frag
+
+MESSAGE Delete files .tmp
+
+  <> Summary Kick-Fukui Algorithm <> 
+
+    * Sample Size: 5000
+    * Molecules 
+        f+ : f+koop-Si3.frag 
+        f- : f-koop-Si9.frag 
+    * Box size : 6.43 Å x 6.43 Å x 6.43 Å
+    * Output File: 
+    * Maximun Coulombic-Interaction Value (J) : 0.169551
+
+  <> Performance Data <> 
+
+    * N° Process : 100
+    * Start : Mon Oct 14 12:19:29 2019
+    * End : Mon Oct 14 12:20:38 2019
+    * Execution time :69 wallclock secs ( 1.94 usr  5.07 sys + 160.11 cusr 51.99 csys = 219.11 CPU)
+
+MESSAGE Normal Termination Kick-Fukui Algorithm
+
