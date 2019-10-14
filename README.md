@@ -11,6 +11,23 @@ A novel program for the search of global minimum structures of atomic clusters a
 
 Before starting the installation, it is important to know that Kick-Fukui is not a full or autonomous software; instead, it needs an assisting program to calculate energies and perform optimizations like Open Babel, Lammps, Gaussian and Mopac. SnippetKick uses these pre-installed tools for the minima local search on the potential energy surface (PES).
 
+File format with extension **.frag**
+
+    • First column         = Atom symbol for attractor (X) and element (example Si).
+
+    • Second-Fourth column = Cartesian coordinates (Å) x-coord; y-coord; z-coord.
+  
+    • Fifth column         = Condensed values of the Fukui functions (attractors).
+
+**Note: For more information of Condensed values of the Fukui functions, https://pubs.acs.org/doi/10.1021/ct100022w**
+
+       X	0.02053684	-1.29029342	-1.36079835	0.1900536003
+       X	0.02053684	 1.31835992	-1.36079835	0.1926297737
+       X	0.02053684	-1.81202408	 0.20439365	0.1526948452
+      Si	0.00000000	 1.57169558	-0.53352285
+      Si	0.00000000	 0.00000000	 1.06704517
+      Si	0.00000000	-1.57169558	-0.53352285
+
 **1. Softwares for Topology Analysis**
 
   •	TAFF (https://github.com/HumanOsv/TAFF)
@@ -73,23 +90,6 @@ To run Kick-Fukui the following files are necessary in the working directory:
     • Kick-Fukui_Algorithm.pl   : The executable file for structure prediction.
 
 **Note: Kick-Fukui_Algorithm.pl can be called from another path if correctly set**
-
-File format with extension **.frag**
-
-    • First column         = Atom symbol for attractor (X) and element (example Si).
-
-    • Second-Fourth column = Cartesian coordinates (Å) x-coord; y-coord; z-coord.
-  
-    • Fifth column         = Condensed values of the Fukui functions (attractors).
-
-**Note: For more information of Condensed values of the Fukui functions, https://pubs.acs.org/doi/10.1021/ct100022w**
-
-       X	0.02053684	-1.29029342	-1.36079835	0.1900536003
-       X	0.02053684	 1.31835992	-1.36079835	0.1926297737
-       X	0.02053684	-1.81202408	 0.20439365	0.1526948452
-      Si	0.00000000	 1.57169558	-0.53352285
-      Si	0.00000000	 0.00000000	 1.06704517
-      Si	0.00000000	-1.57169558	-0.53352285
 
 Now, use the following commands to execute this program:
 
