@@ -30,11 +30,11 @@ File format with extension **.frag**
 
 **1. Softwares for Topology Analysis**
 
-  •	TAFF     (https://github.com/HumanOsv/TAFF)
+  •	TAFF     (https://github.com/HumanOsv/TAFF) *example in the scripts folder*
 
   •	Multiwfn (http://sobereva.com/multiwfn/)
 
-  •	Dgrid    (http://www2.cpfs.mpg.de/~kohout/dgrid.html)
+  •	Dgrid    (http://www2.cpfs.mpg.de/~kohout/dgrid.html) *example in the scripts folder*
 
   •	TopChem2 (http://www.lct.jussieu.fr/pagesperso/pilme/topchempage.html)
   
