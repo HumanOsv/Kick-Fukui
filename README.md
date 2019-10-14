@@ -161,4 +161,9 @@ After a successful run of the program, several output files will be generated in
     DuplicatesCoords_GS.xyz   : Duplicates Grigoryan-Springborg Algorithm.
 
 
+**If you use this code, please cite:**
+
+   Yañez, O.; Vásquez-Espinal, A.; Inostroza, D.; Ruiz, L.; Pino-Rios, R.; Tiznado, W. A Fukui Function-Guided Genetic Algorithm. Assessment on Structural Prediction of Sin (N= 12--20) Clusters. J. Comput. Chem. 2017, 38 (19), 1668–1677. https://doi.org/10.1002/jcc.24810
+
+   Osorio, E.; Ferraro, M. B.; Oña, O. B.; Cardenas, C.; Fuentealba, P.; Tiznado, W. Assembling Small Silicon Clusters Using Criteria of Maximum Matching of the Fukui Functions. J. Chem. Theory Comput. 2011, 7 (12), 3995–4001. https://doi.org/10.1021/ct200643z.
 
