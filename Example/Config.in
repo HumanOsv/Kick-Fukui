@@ -19,7 +19,7 @@ box_size_factor = 0.8
 energy_order = YES
 
 # Search for duplicate molecular species (YES/NO)
-duplicate_species = NO
+duplicate_species = YES
 
 # Output xyz file name 
 output_file_name = Si12
