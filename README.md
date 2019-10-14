@@ -45,6 +45,16 @@ File format with extension **.frag**
   •	AIM-UC   (https://facyt-quimicomp.neocities.org/aim_uc/manual/manual_en.html)
 
   •	AIM2000  (http://www.aim2000.de)
+  
+  •	MoPro    (http://crm2.univ-lorraine.fr/lab/en/software/mopro/)
+  
+  •	ToposPro (https://topospro.com/)
+  
+  •	Rhorix   (https://github.com/MJLMills/rhorix)
+  
+  •	HORTON   (https://github.com/theochem/horton)
+  
+  •	Topology Tool Kit (https://topology-tool-kit.github.io/)
    
    
 **2. Installing Perl environment.**
