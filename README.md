@@ -52,7 +52,7 @@ Alternatively, it can be downloaded using the Git tools using the following comm
 
 We recommend to install using Git tools to update future Kick-Fukui software easily. To update the program, use the following command:
 
-	user$ git pull master
+    user$ git pull master
 	
 Alternatively, Kick-Fukui could be installed as follows: choose a final installation path, and then extract the ZIP file (containing the software). Provide all the basic permissions for use and, optionally, set Kick-Fukui_Algorithm.pl file as a system call.
 
@@ -70,11 +70,11 @@ To run Kick-Fukui the following files are necessary in the working directory:
 
  File format with extension **.frag**
 
- *First column         = Atom symbol for attractor (X) and element (example Si)*
+ *First column         = Atom symbol for attractor (X) and element (example Si).*
 
- *Second-fourth column = Cartesian coordinates (Å) x-coord; y-coord; z-coord*
+ *Second-fourth column = Cartesian coordinates (Å) x-coord; y-coord; z-coord.*
   
- *Fifth column         = Condensed values of the Fukui functions (attractors)*
+ *Fifth column         = Condensed values of the Fukui functions (attractors).*
 
 **Note: For more information of Condensed values of the Fukui functions, https://pubs.acs.org/doi/10.1021/ct100022w**
 
