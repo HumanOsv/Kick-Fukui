@@ -68,13 +68,13 @@ To run Kick-Fukui the following files are necessary in the working directory:
 
 **Note: Kick-Fukui_Algorithm.pl can be called from another path if correctly set**
 
- File format with extension **.frag**
+File format with extension **.frag**
 
- *First column         = Atom symbol for attractor (X) and element (example Si).*
+    • First column         = Atom symbol for attractor (X) and element (example Si).
 
- *Second-fourth column = Cartesian coordinates (Å) x-coord; y-coord; z-coord.*
+    • Second-Fourth column = Cartesian coordinates (Å) x-coord; y-coord; z-coord.
   
- *Fifth column         = Condensed values of the Fukui functions (attractors).*
+    • Fifth column         = Condensed values of the Fukui functions (attractors).
 
 **Note: For more information of Condensed values of the Fukui functions, https://pubs.acs.org/doi/10.1021/ct100022w**
 
