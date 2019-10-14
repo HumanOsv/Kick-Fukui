@@ -11,16 +11,22 @@ A novel program for the search of global minimum structures of atomic clusters a
 
 Before starting the installation, it is important to know that Kick-Fukui is not a full or autonomous software; instead, it needs an assisting program to calculate energies and perform optimizations like Open Babel, Lammps, Gaussian and Mopac. SnippetKick uses these pre-installed tools for the minima local search on the potential energy surface (PES).
 
-**1. Installing external softwares.**
+**1. Softwares for Topology Analysis**
 
-  •	Open Babel (http://openbabel.org/wiki/Category:Installation) (Optional)
+  •	TAFF (https://github.com/HumanOsv/TAFF)
 
-  •	Mopac (http://openmopac.net/Download_MOPAC_Executable_Step2.html)
+  •	Multiwfn (http://sobereva.com/multiwfn/)
 
-  •	Gaussian (http://gaussian.com/)
+  •	Dgrid (http://www2.cpfs.mpg.de/~kohout/dgrid.html)
 
-  •	Lammps (https://lammps.sandia.gov/download.html#ubuntu) (Optional)
+  •	TopChem2 (http://www.lct.jussieu.fr/pagesperso/pilme/topchempage.html)
   
+  •	AIMALL (http://aim.tkgristmill.com/)
+   
+  •	TopMod (http://www.lct.jussieu.fr/pagesperso/silvi/topmod_english.html)
+
+  •	AIM-UC (https://facyt-quimicomp.neocities.org/aim_uc/manual/manual_en.html)
+
 
 **2. Installing Perl environment.**
 
