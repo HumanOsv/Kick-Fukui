@@ -24,7 +24,7 @@ Before starting the installation, it is important to know that Kick-Fukui is not
 
 **2. Installing Perl environment.**
 
-Once the programs for  both energy calculations and geometry optimizations are working correctly, the Perl environment needs to be installed as well. Perl is a highly capable, feature-rich programming language that runs on many platforms from portable to mainframes.
+Once the programs for calculating attractors using the topology of the Fukui function are functioning properly, the Perl environment needs to be installed as well. Perl is a highly capable, feature-rich programming language that runs on many platforms from portable to mainframes.
 It can be installed from:
 - https://www.perl.org/get.html
 
@@ -65,17 +65,35 @@ To run Kick-Fukui the following files are necessary in the working directory:
     • DupGrigoryanSpringborg.pl : The executable file for duplicate molecular fragments.
 
     • Kick-Fukui_Algorithm.pl   : The executable file for structure prediction.
+ 
+ File format with extension **.frag**
 
-**Note: Kick-Fukui.pl can be called from another path if correctly set**
+ *First column         = Atom symbol for attractor (X) and element (example Si)*
+
+ *Second-fourth column = Cartesian coordinates (Å) x-coord; y-coord; z-coord *
+  
+ *Fifth column         = Condensed values of the Fukui functions (attractors)*
+
+**Note: For more information of Condensed values of the Fukui functions, https://pubs.acs.org/doi/10.1021/ct100022w**
+
+       X	0.02053684	-1.29029342	-1.36079835	0.1900536003
+       X	0.02053684	 1.31835992	-1.36079835	0.1926297737
+       X	0.02053684	-1.81202408	 0.20439365	0.1526948452
+      Si	0.00000000	 1.57169558	-0.53352285
+      Si	0.00000000	 0.00000000	 1.06704517
+      Si	0.00000000	-1.57169558	-0.53352285
+
+
+**Note: Kick-Fukui_Algorithm.pl can be called from another path if correctly set**
 
 Now, use the following commands to execute this program:
 
-    user$  perl Kick-Fukui.pl Config.in > out.log
+    user$  perl Kick-Fukui_Algorithm.pl Config.in > Output.log
 
 Alternatively, the user can set Kick-Fukui to run in the background using one of the following methods:
 
-    user$ nohup perl Kick-Fukui.pl Config.in > out.log
-    user$ setsid perl Kick-Fukui.pl Config.in > out.log
+    user$ nohup perl Kick-Fukui_Algorithm.pl Config.in > Output.log
+    user$ setsid perl Kick-Fukui_Algorithm.pl Config.in > Output.log
 
 **4)	Input File**
 
@@ -93,11 +111,11 @@ Number of final geometries.
 
 Name of molecular species in the simulation.
 
-*File with the nucleophilic Fukui function
+*File with the nucleophilic Fukui function*
 
     Mol_1 = f+koop-Si3.frag
 
-*File with the electrophilic Fukui function 
+*File with the electrophilic Fukui function* 
 
     Mol_2 = f-koop-Si9.frag
 
@@ -105,15 +123,15 @@ Box size the sum of the sides from both molecules multiply for a factor (Default
 
     box_size_factor = 0.8
 
-Order Coulombic-Interaction Value (J) in a descending (YES) or scholastic (NO) manner 
+Order Coulombic-Interaction Value (J) in a descending (YES) or scholastic (NO) manner. 
 
     energy_order = YES
 
-Search for duplicate molecular species (YES/NO)
+Search for duplicate molecular species (YES/NO).
 
     duplicate_species = NO
 
-Output xyz file name 
+Output xyz file name. 
 
     output_file_name = Si12
 
@@ -122,13 +140,13 @@ Output xyz file name
     Correct : initial_species = 5000
     Wrong   : initial_species=5000
 
-**5) SnippetKick outputs**
+**5) Kick-Fukui outputs**
 
 After a successful run of the program, several output files will be generated in your working directory.
 
     Outputfile_sort.xyz       : Final coordinates XYZ file format of each species sort by descending order value J.
     Outputfile_stochastic.xyz : Final coordinates XYZ file format of each species stochastic order value J.
-    Output.log                : Print summary information SnippetKick.
+    Output.log                : Print summary information Kick-Fukui.
     DuplicatesCoords_GS.xyz   : Duplicates Grigoryan-Springborg Algorithm.
 
 
