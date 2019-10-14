@@ -19,7 +19,7 @@ File format with extension **.frag**
   
     • Fifth column         = Condensed values of the Fukui functions (attractors).
 
-**Note: For more information of Condensed values of the Fukui functions, https://pubs.acs.org/doi/10.1021/ct100022w**
+**Note: For more information of Condensed values of the Fukui functions, https://doi.org/10.1021/ct100022w**
 
        X	0.02053684	-1.29029342	-1.36079835	0.1900536003
        X	0.02053684	 1.31835992	-1.36079835	0.1926297737
