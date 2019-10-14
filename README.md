@@ -30,21 +30,21 @@ File format with extension **.frag**
 
 **1. Softwares for Topology Analysis**
 
-  •	TAFF (https://github.com/HumanOsv/TAFF)
+  •	TAFF     (https://github.com/HumanOsv/TAFF)
 
   •	Multiwfn (http://sobereva.com/multiwfn/)
 
-  •	Dgrid (http://www2.cpfs.mpg.de/~kohout/dgrid.html)
+  •	Dgrid    (http://www2.cpfs.mpg.de/~kohout/dgrid.html)
 
   •	TopChem2 (http://www.lct.jussieu.fr/pagesperso/pilme/topchempage.html)
   
-  •	AIMALL (http://aim.tkgristmill.com/)
+  •	AIMALL   (http://aim.tkgristmill.com/)
    
-  •	TopMod (http://www.lct.jussieu.fr/pagesperso/silvi/topmod_english.html)
+  •	TopMod   (http://www.lct.jussieu.fr/pagesperso/silvi/topmod_english.html)
 
-  •	AIM-UC (https://facyt-quimicomp.neocities.org/aim_uc/manual/manual_en.html)
+  •	AIM-UC   (https://facyt-quimicomp.neocities.org/aim_uc/manual/manual_en.html)
 
-  •	AIM2000 (http://www.aim2000.de)
+  •	AIM2000  (http://www.aim2000.de)
    
    
 **2. Installing Perl environment.**
