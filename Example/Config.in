@@ -1,3 +1,6 @@
+#                                                         #
+########### The Basic Parameters of Kick-Fukui ############
+#                                                         #
 
 # The Initial Population size (1000N, N = Atoms number)
 initial_species = 5000
