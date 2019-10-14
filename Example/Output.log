@@ -24,7 +24,7 @@ MESSAGE Delete files .tmp
         f+ : f+koop-Si3.frag 
         f- : f-koop-Si9.frag 
     * Box size : 6.43 Å x 6.43 Å x 6.43 Å
-    * Output File: 
+    * Output File: Si12_sort.xyz
     * Maximun Coulombic-Interaction Value (J) : 0.169551
 
   <> Performance Data <> 
