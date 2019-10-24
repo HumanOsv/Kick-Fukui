@@ -23,6 +23,8 @@ use Math::Matrix;
 #
 # Number of process 
 my $ncpus = 100;
+# Weight spherical restriction algorithm 
+my $weight_spherical = 2.0;
 #
 #
 ###########################
@@ -998,8 +1000,7 @@ foreach my $iteration(1 .. $Num_of_geometries){
 	# Sphere radius
 	my @ValuesTam   = sort {$a cmp $b} ($Tam1,$Tam2);
 	#
-	my $weight      = 1.6;
-	my $Raddi_Value = ($ValuesTam[0]/2) * $weight;
+	my $Raddi_Value = ($ValuesTam[0]/2) * $weight_spherical;
 	#
 	my $Radii_Xmin  = ($medium[0] + (-$Raddi_Value));
 	my $Radii_Ymin  = ($medium[1] + (-$Raddi_Value));
