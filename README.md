@@ -57,6 +57,8 @@ File format with extension **.frag**
   •	HORTON   (https://github.com/theochem/horton)
   
   •	Topology Tool Kit (https://topology-tool-kit.github.io/)
+  
+  •	GPUam    (https://github.com/gpuam/binaries)
    
    
 **2. Installing Perl environment.**
