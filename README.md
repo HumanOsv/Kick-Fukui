@@ -183,3 +183,4 @@ After a successful run of the program, several output files will be generated in
 
    Osorio, E.; Ferraro, M. B.; Oña, O. B.; Cardenas, C.; Fuentealba, P.; Tiznado, W. Assembling Small Silicon Clusters Using Criteria of Maximum Matching of the Fukui Functions. J. Chem. Theory Comput. 2011, 7 (12), 3995–4001. https://doi.org/10.1021/ct200643z.
 
+   Yañez, O., Báez-Grez, R., Inostroza, D., Pino-Rios, R., Rabanal-León, W. A., Contreras-García, J., ... & Tiznado, W. (2021). Kick–Fukui: A Fukui Function-Guided Method for Molecular Structure Prediction. Journal of Chemical Information and Modeling, 61(8), 3955-3963.
