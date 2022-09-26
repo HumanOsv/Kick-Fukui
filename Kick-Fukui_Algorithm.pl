@@ -24,7 +24,9 @@ use Math::Matrix;
 # Number of process 
 my $ncpus = 100;
 # Weight spherical restriction algorithm 
-my $weight_spherical = 2.0;
+#
+my $weight_spherical = 10.0;
+#my $weight_spherical = 2.0;
 #
 #
 ###########################
