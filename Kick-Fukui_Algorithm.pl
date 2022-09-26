@@ -647,8 +647,10 @@ sub sort_energies{
 		$super{$energies[$#energies]}=$coords;	
 		unlink "$file";
 	}
-	#
-	@sorted_numbers = sort { $b <=> $a } @energies;
+	# Potencial
+	@sorted_numbers = sort { $a <=> $b } @energies;	
+	# Fukui
+#	@sorted_numbers = sort { $b <=> $a } @energies;
 	@ValueJ = @sorted_numbers;
 	# write inputfile .XYZ
 	open(NEW, ">tmp_kick-fukui.xyz");
